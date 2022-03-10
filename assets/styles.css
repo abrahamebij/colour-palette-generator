@@ -1,0 +1,35 @@
+body{
+  background-color: rgb(221, 223, 223);
+}
+.row{
+  height: 84vh;
+}
+.palette{
+  background-color: inherit;
+  transition: background .3s;
+  height: auto;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, .2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+.pointer{
+  cursor: pointer;
+}
+.text-facebook{
+  color: #3b5998 !important;
+}
+.dummy-btn{
+  padding: 0;
+  outline: 0;
+  border: 0;
+  background-color: transparent;
+}
+@media (min-width:768px) {
+  .palette{
+    width: 20%;
+  }
+}
