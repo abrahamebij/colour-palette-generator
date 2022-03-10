@@ -92,7 +92,7 @@ generateNewWords.addEventListener("click", function () {
 
 	if (numGenerator() == 1) {
 		tip.innerHTML =
-			'This was created by <a href="https://abrahame.showwcase.com/">Abraham</a>';
+			'This was created by <a href="https://showwcase.com/abrahame">Abraham</a>';
 	} else if (numGenerator() == 2) {
 		tip.innerHTML =
 			"Did you know that you can also use the <strong>spacebar</strong> to generate new colours";
