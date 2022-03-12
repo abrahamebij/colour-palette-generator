@@ -2,7 +2,7 @@ body{
   background-color: rgb(221, 223, 223);
 }
 .row{
-  height: 80vh;
+  height: calc(100vh - 110px);
 }
 .palette{
   background-color: inherit;
